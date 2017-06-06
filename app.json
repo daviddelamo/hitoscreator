@@ -1,0 +1,8 @@
+{
+  "name": "Hitos Creator",
+  "description": "Creacion de hojas de personaje de Hitos",
+  "repository": "https://github.com/daviddelamo/hitoscreator",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
