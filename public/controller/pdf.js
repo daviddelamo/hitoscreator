@@ -7,7 +7,7 @@ var hummus=require('hummus');
 var fillForm = require('./pdf-form-fill').fillForm;
 function generatePDF(req, res){
   var outputName = new Date().getTime();
-  var filePath = '/tmp/cultos_'+outputName+'.pdf');
+  var filePath = '/tmp/cultos_'+outputName+'.pdf';
   console.log('filePath: '+filePath);
   var writer = hummus.createWriterToModify('./public/pdf_templates/cultos.pdf', {
   			modifiedFilePath: filePath
