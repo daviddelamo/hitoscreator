@@ -17,6 +17,7 @@
     "gm": "^1.23.0",
     "hummus": "^1.0.77",
     "lodash": "^4.17.4",
+    "sharp": "^0.18.2",
     "svgutils": "^0.13.6"
   },
   "devDependencies": {
