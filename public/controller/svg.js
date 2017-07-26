@@ -38,7 +38,7 @@ function generateSVG(req, res){
         compressionLevel : 6,
         adaptiveFiltering : true
       }
-      sharp(__dirname + '/../pdf_templates/hoja_cultos_editable.svg').png(pngOptions).toBuffer(function(err, data, info){
+      sharp(new Buffer(data)).png(pngOptions).toBuffer(function(err, data, info){
         res.set({
           'Content-Type': 'image/png',
           'Content-Length': data.length
